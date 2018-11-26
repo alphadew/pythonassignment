@@ -1,6 +1,6 @@
 <html>
     <body>
-        <h1>WELCOME TO XYZ HOSPITAL</h1>
+        <h1>WELCOME to ABC Bus Booking</h1>
 
         <DOCTYPE html>
             <html>
@@ -13,12 +13,12 @@
                      text-align:center;
                     font-size:16pt;
                     height:50px;
-                    background-color: #229954 ;		
+                    background-color: #22b897;		
                     }
                 #app{
                     width:49%;
                     height:520px;
-                    border:3px solid  #229954;
+                    border:3px solid  #22b897;
                     border-radius:10px;
                     float:left;
                     }
@@ -94,12 +94,12 @@
              
              </head>
              <body>
-             <header><center><h1><a href="home.html">XYZ HOSPITAL</a><h1></center></header>
+             <header><center><h1><a href="">ABC Bus</a><h1></center></header>
             <div id="booking">
               <div id="app">
                 <form>
                 <div id ="data">
-                 <label id="labels">Patient Name</label>
+                 <label id="labels">Name</label>
                  <input type="text" id="texts" name="name" placeholder="enter name">
                 </div>
                 <div id ="data">
@@ -115,19 +115,29 @@
                  <input type="text" id="texts" name="name" >
                 </div>
                 <div id ="data">
-                 <span id="labels">Department to be consulted</span>
+                 <span id="labels">From</span>
                  <select id="texts">
-                  <option name="ortho">ortho</option>
-                  <option name="ortho">pediatrisian</option>
-                  <option name="ortho">eye-pecialist</option>
+                  <option name="ortho">Kannur</option>
+                  <option name="ortho">Trivandrum</option>
+                  <option name="ortho">Kozhikode</option>
                 </select>
                 </div>
+
                 <div id ="data">
-                 <label id="labels">Date for the appointment</label>
+                    <span id="labels">To</span>
+                    <select id="texts">
+                     <option name="ortho">Kannur</option>
+                     <option name="ortho">Trivandrum</option>
+                     <option name="ortho">Kozhikode</option>
+                   </select>
+                   </div>
+
+                <div id ="data">
+                 <label id="labels">Date of Journey</label>
                  <input type="text" id="texts" name="name" placeholder="enter date">
                 </div>
                 <div id ="data">
-                 <label id="labels">Doctor Name</label>
+                 <label id="labels">Travels Name</label>
                  <input type="text" id="texts" name="name" placeholder="enter name">
                 </div>
                 <div id ="data">
@@ -136,9 +146,7 @@
                 </div>
                 </form>
               </div>
-              <div id="bookimg" >
-                 <img src="book.png">
-              </div>
+            
             </div>	
              </body>
             </html>
